@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+section{
+	height: 100vh;
+	/*red-green-blue*/
+    background : rgb(200,200,230);
+    display: flex;
+    /*justify-content: is to center on ligne */
+    justify-content: space-around; 
+    /*align-items: is to center on colmun*/
+    align-items: center;
+    /*we added the h1 and we awnt the h1 to be in center above the sun so we do flex-direction: column (flrx direction is ligne by default)
+    and we change the justify-content: to space-around*/
+    flex-direction: column;
+}
+svg{
+	cursor: pointer;
+}
+body{
+font-family: 'Shadows Into Light', cursive;
+
+}
